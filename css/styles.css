@@ -5,3 +5,29 @@ Rules for families
    font-family: 'Merriweather', serif;
    font-family: 'Open Sans', sans-serif;
 */
+
+/*
+:root {
+  --main-black-color: #2a2c42;
+  --main-yellow-color: #f5c30f;
+  --main-gray-color: #f8f8f8;
+}
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bg-black {
+  background-color: #2a2c42;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
