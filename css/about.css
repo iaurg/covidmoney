@@ -1,6 +1,7 @@
 .about {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .about-50 {
@@ -43,4 +44,32 @@
 .source:hover {
   background: #2a2c42;
   color: #fff;
+}
+
+/* Tiny Devices: Phones */
+@media (max-width: 767px) {
+  .about-50 {
+    width: 100%;
+  }
+  .source {
+    width: 100%;
+  }
+}
+
+/* Small Devices: Tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+  .source {
+    width: 30%;
+  }
+}
+
+/* Medium Devices: Desktops */
+@media (min-width: 993px) and (max-width: 1199px) {
+  .source {
+    width: 20%;
+  }
+}
+
+/* Large Devices: Large Desktops */
+@media (min-width: 1200px) {
 }
