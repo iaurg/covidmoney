@@ -13,6 +13,7 @@
 
     <!-- style and script resources -->
     <link rel="stylesheet" href="/css/normalize.min.css" media="all" />
+    <link rel="stylesheet" href="/css/all.min.css" media="all" />
     <link rel="stylesheet" href="/css/styles.css" media="all" />
     <!--meta properties -->
     <meta
@@ -61,15 +62,23 @@
     <![endif]-->
     <header class="bg-black">
       <div class="content">
-        <div class="logo"><img src="" alt="Logo Covid Money" /></div>
-        <nav>
-          <ul class="menu-list">
-            <li class="menu-list__item"><a href="#">Menu</a></li>
-            <li class="menu-list__item"><a href="#">Menu</a></li>
-            <li class="menu-list__item"><a href="#">Menu</a></li>
-            <li class="menu-list__item--button"><a href="#">Menu</a></li>
-          </ul>
-        </nav>
+        <div class="header-home">
+          <div class="logo">
+            <img src="/images/Logo-covid-money.svg" alt="Logo Covid Money" />
+          </div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-list__item"><a href="#">Sobre nós</a></li>
+              <li class="menu-list__item">
+                <a href="#">Base de conhecimento</a>
+              </li>
+              <li class="menu-list__item"><a href="#">Contato</a></li>
+              <li class="menu-list__item menu-list__item--button">
+                <a href="#">Solicite uma análise</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="bg-black">
@@ -79,87 +88,117 @@
             Fique atento ás mudanças do mercado e tenha o conhecimento
             necessário
           </div>
-          <div class="banner__image"></div>
+          <div class="banner__image">
+            <img
+              src="/images/image-banner-covid-money.png"
+              alt="Icone de ampulheta dinheiro"
+            />
+          </div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="content">
         <div class="alerts">
           <div class="alert">
-            <img src="" alt="" class="alert__icon" />
+            <i class="fas fa-chess-knight alert__icon"></i>
             <span class="alert__text">Fale com um especialista</span>
           </div>
           <div class="alert">
-            <img src="" alt="" class="alert__icon" />
+            <i class="fab fa-buffer alert__icon"></i>
             <span class="alert__text">Confira o último relatório</span>
           </div>
           <div class="alert">
-            <img src="" alt="" class="alert__icon" />
+            <i class="fas fa-certificate alert__icon"></i>
             <span class="alert__text">Assine nosso plano 2020</span>
           </div>
         </div>
       </div>
     </section>
-    <section>
+
+    <section class="section-spacing">
       <div class="content">
         <h2 class="section-title">Cotações Atualizadas</h2>
-        <div class="price-box">
-          <p class="price-box__name"></p>
-          <span class="price-box__value"></span>
-        </div>
-        <div class="price-box">
-          <p class="price-box__name"></p>
-          <span class="price-box__value"></span>
-        </div>
-        <div class="price-box">
-          <p class="price-box__name"></p>
-          <span class="price-box__value"></span>
-        </div>
-        <div class="price-box">
-          <p class="price-box__name"></p>
-          <span class="price-box__value"></span>
-        </div>
-        <div class="price-box">
-          <p class="price-box__name"></p>
-          <span class="price-box__value"></span>
+        <div class="prices">
+          <div class="price-box">
+            <div class="price-box__name">Bitcoin</div>
+            <span class="price-box__value">R$32.000</span>
+          </div>
+          <div class="price-box">
+            <div class="price-box__name">Dólar</div>
+            <span class="price-box__value">R$5,37</span>
+          </div>
+          <div class="price-box">
+            <div class="price-box__name">Euro</div>
+            <span class="price-box__value">R$5,68</span>
+          </div>
+          <div class="price-box">
+            <div class="price-box__name">IBOV</div>
+            <span class="price-box__value">60.202</span>
+          </div>
+          <div class="price-box">
+            <div class="price-box__name">Libra</div>
+            <span class="price-box__value">R$7,52</span>
+          </div>
         </div>
       </div>
     </section>
-    <section class="bg-gray">
+    <section class="bg-gray section-spacing">
       <div class="content">
         <h2 class="section-title">Noticias Relevantes</h2>
-        <div class="notices">
-          <div class="notice">
+        <div class="news">
+          <div class="news-item">
             <img src="" alt="" class="notice__image" />
-            <h3 class="noticie__title"></h3>
+            <h3 class="news-item__title">Titulo</h3>
+            <p class="notice__resume">Oi aqui é a noticia</p>
+          </div>
+          <div class="news-item">
+            <img src="" alt="" class="notice__image" />
+            <h3 class="news-item__title">Titulo</h3>
+            <p class="notice__resume">Oi aqui é a noticia</p>
+          </div>
+          <div class="news-item">
+            <img src="" alt="" class="notice__image" />
+            <h3 class="news-item__title"></h3>
             <p class="notice__resume"></p>
           </div>
-          <div class="notice">
+          <div class="news-item">
             <img src="" alt="" class="notice__image" />
-            <h3 class="noticie__title"></h3>
+            <h3 class="news-item__title"></h3>
             <p class="notice__resume"></p>
           </div>
-          <div class="notice">
+          <div class="news-item">
             <img src="" alt="" class="notice__image" />
-            <h3 class="noticie__title"></h3>
-            <p class="notice__resume"></p>
-          </div>
-          <div class="notice">
-            <img src="" alt="" class="notice__image" />
-            <h3 class="noticie__title"></h3>
-            <p class="notice__resume"></p>
-          </div>
-          <div class="notice">
-            <img src="" alt="" class="notice__image" />
-            <h3 class="noticie__title"></h3>
+            <h3 class="news-item__title"></h3>
             <p class="notice__resume"></p>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="section-spacing">
       <div class="content">
         <h2 class="section-title">O que estão comentando?</h2>
         <div class="videos">
-          <div class="video"></div>
-          <div class="video"></div>
+          <div class="video">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/Y8SaMX30X1g"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/HM0m2ygPgho"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
