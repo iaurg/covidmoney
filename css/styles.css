@@ -1,33 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400;700&display=swap");
 
-/*
-Rules for families
-   font-family: 'Merriweather', serif;
-   font-family: 'Open Sans', sans-serif;
-*/
-
-/*
-:root {
-  --main-black-color: #2a2c42;
-  --main-yellow-color: #f5c30f;
-  --main-gray-color: #f8f8f8;
-}
-
-Media queries
-@mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
-}
-@mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
-}
-@mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
-}
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-}
-*/
-
 body {
   font-family: "Open Sans", sans-serif;
 }
