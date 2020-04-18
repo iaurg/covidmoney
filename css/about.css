@@ -9,6 +9,10 @@
   padding: 30px 15px;
 }
 
+.about-50 img{
+max-width:100%;
+}
+
 .about-50__title {
   font-family: "Merriweather", serif;
   padding-bottom: 15px;

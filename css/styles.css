@@ -89,6 +89,10 @@ ul {
   align-content: center;
 }
 
+.banner__image img{
+max-width:100%;
+}
+
 .alerts {
   display: flex;
   flex-wrap: wrap;
@@ -269,7 +273,7 @@ footer {
 /* Tiny Devices: Phones */
 @media (max-width: 767px) {
   .price-box {
-    max-width: 41%;
+    max-width: 100%;
   }
   .alert {
     width: 70%;
